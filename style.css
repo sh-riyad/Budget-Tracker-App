@@ -1,0 +1,97 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+.app-container{
+    width:100vw;
+    height: 100vh;
+    background-color: #f6fff8;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+
+}
+
+.form-container{
+    width: 60vw;
+    height: 15vh;
+    display: flex;
+    align-items: center;
+    padding-left: 30px;
+    background-color: #b1a7a6;
+    gap: 20px;
+}
+.amount-input{
+    width: 25vw;
+    height: 5vh;
+    border: none;
+    border-radius: 8px;
+    padding: 5px;
+
+}
+.form-button{
+    width: 5vw;
+    height: 5vh;
+    border: none;
+    border-radius: 8px;
+    padding: 5px;
+    background-color: #1982c4;
+}
+
+.balance-sheet-container{
+    width: 60vw;
+    height: 15vh;
+    background-color:#b1a7a6;
+    display: flex;
+    align-items: center;
+    justify-content:flex-start ;
+    padding-left: 30px;
+}
+.sub-container{
+    width: 50%;
+}
+
+.details-container{
+    width: 60vw;
+    padding: 30px;
+    background-color: #b1a7a6;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.details-section{
+
+    background-color: #b1a7a6;
+    display: flex;
+    justify-content: space-between;
+
+}
+.details-info{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.amount{
+    font-size: xx-large;
+    width: 6vw;
+}
+.label{
+    font-size: large;
+}
+
+.button-class{
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+.button-class button{
+    font-size: medium;
+    width: 5vw;
+    padding: 5px;
+    background: #1982c4;
+    border: 1px solid #1982c4;
+    border-radius: 6px;
+    color: black;
+}
